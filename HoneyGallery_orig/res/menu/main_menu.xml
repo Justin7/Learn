@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_toggleTitles"
+          android:title="@string/toggle_titles"
+          android:icon="?attr/menuIconToggle"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_toggleTheme"
+          android:title="@string/day_night" />
+    <item android:id="@+id/menu_showDialog"
+          android:title="@string/show_dialog" />
+    <item android:id="@+id/menu_showStandardNotification"
+          android:title="@string/basic_notification" />
+    <item android:id="@+id/menu_showCustomNotification"
+          android:title="@string/custom_notification" />
+</menu>

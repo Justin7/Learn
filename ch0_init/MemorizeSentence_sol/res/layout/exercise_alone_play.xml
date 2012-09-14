@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView android:id="@+id/play_left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left_yellow_arrow" >
+        </ImageView>
+
+        <TextView android:id="@+id/play_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/alone_play_title"
+            android:textSize="28dp" >
+        </TextView>
+
+        <ImageView android:id="@+id/play_right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right_yellow_arrow" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView android:id="@+id/play_last_accessed_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="last_accessed_time" >
+        </TextView>
+
+        <TextView android:id="@+id/play_labtime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="labtime" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView android:id="@+id/play_sentence1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_sentence1"
+        android:textSize="18sp" >
+    </TextView>
+
+    <TextView android:id="@+id/play_sentence2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_sentence2"
+        android:textSize="24dp" >
+    </TextView>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView android:id="@+id/play_sentence_clicked"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/play_sentence_clicked"
+                android:textSize="32dp" >
+            </TextView>
+
+            <my.andr.memorize.layout.AutoLinearLayout
+                android:id="@+id/play_random_sentences"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center" >
+
+        <Button android:id="@+id/play_btn_memorize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_weight="0"
+            android:text="@string/play_btn_memorize" >
+        </Button>
+
+        <Button android:id="@+id/play_btn_tryagain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_btn_tryagain"
+            android:visibility="gone" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

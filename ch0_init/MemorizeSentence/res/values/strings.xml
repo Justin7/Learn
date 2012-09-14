@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">50문장외우기</string>
+    <string name="main_title">50SentencesMemorize</string>
+    <string name="main_btn1_title">Exercise Alone</string>
+    <string name="main_btn2_title">Network Game</string>
+    <string name="alone_title">Exercise Alone</string>
+    <string name="alone_play_title">Alone Play</string>
+    <string name="play_btn_memorize">Memorize</string>
+    <string name="play_sentence1">Sentence 1</string>
+    <string name="play_sentence2">Sentence 2</string>
+    <string name="play_sentence_clicked">Clicked Sentence</string>
+    <string name="play_btn_tryagain">Try Again</string>
+    <string name="alone_prompt">단계를 선택하세요.</string>
+</resources>

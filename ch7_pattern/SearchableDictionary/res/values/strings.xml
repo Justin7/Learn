@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The name of the application. -->
+    <string name="app_name">Searchable Dictionary</string>
+
+    <!-- The label for the search results for this app (see searchable.xml for more details). -->
+    <string name="search_label">Dictionary</string>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Search</string>
+
+    <!-- The description that will show up in the search settings for this source.  -->
+    <string name="settings_description">Definitions of words</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">Press the search key to look up a word</string>
+</resources>

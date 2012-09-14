@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">사운드 테스트 프로그램</string>
+    <string name="start">사운드 실행</string>
+     <string name="stop">사운드 멈춤</string>
+    <string name="app_name">사운드 테스트</string>
+     <string name="status_bar_info">사운드 프로그램</string>
+     <string name="status_bar_notifications_message">실행 중</string>
+</resources>

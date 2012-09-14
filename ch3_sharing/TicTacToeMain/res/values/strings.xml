@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_comp">Start &#8212;&#8212; Computer goes first</string>
+    <string name="start_player">Start &#8212;&#8212; Player goes first</string>
+    <string name="welcome"><b>Welcome to the Tic-Tac-Toe Sample!</b></string>
+    <string name="explain1">This sample code demonstrates how to split an application in multiple projects by using the \'project library\' available in the Froyo SDK Tools.</string>
+    <string name="explain2">This activity is defined in one project. The second activity, launched by one of the buttons below, is located in another project which is a \"library\" to the main one and merged in the same APK.</string>
+    <string name="app_name">Tic-Tac-Toe Sample</string>
+</resources>

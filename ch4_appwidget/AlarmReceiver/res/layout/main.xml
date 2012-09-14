@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="4dip" >
+
+    <Button android:id="@+id/sendCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSendCall"
+        android:text="SendBroadcast Call" />
+
+    <Button android:id="@+id/orderedCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onOrderedCall"
+        android:text="OrderedBroadcast Call" />
+
+    <Button android:id="@+id/orderedResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onOrderedResult"
+        android:text="OrderedBroadcast Result" />
+
+    <Button android:id="@+id/stickyCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onStickyCall"
+        android:text="Sticky Call" />
+
+    <Button android:id="@+id/regRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRegRecv"
+        android:text="Append Receiver" />
+
+    <Button android:id="@+id/removeSticky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRemoveSticky"
+        android:text="Remove Sticky" />
+
+    <Button android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClear"
+        android:text="UnRegister Receiver" />
+
+</LinearLayout>

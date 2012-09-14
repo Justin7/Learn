@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ActionBar Tabs</string>
+    
+    <string name="btn_add_tab">Add new tab</string>
+    <string name="btn_remove_tab">Remove last tab</string>
+    <string name="btn_toggle_tabs">Toggle tab mode</string>
+    <string name="btn_remove_all_tabs">Remove all tabs</string>
+</resources>

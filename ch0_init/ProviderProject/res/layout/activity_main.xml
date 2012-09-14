@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00" >
+    
+	<Button android:id="@+id/insertBt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Insert" />
+	
+	<Button android:id="@+id/deleteBt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/insertBt"
+	    android:text="Delete" />    
+	
+	<Button android:id="@+id/updateBt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/deleteBt"
+	    android:text="Update" /> 
+	
+	<Button android:id="@+id/queryBt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/updateBt"
+	    android:text="Query" /> 
+	    	    	    
+</RelativeLayout>

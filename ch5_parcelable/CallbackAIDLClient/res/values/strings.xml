@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">AIDLClient</string>
+    <string name="app_name">AIDLClient</string>
+	<string name="service_connected">Service연결</string>
+	<string name="service_disconntected">Service종료</string>
+	<string name="bindservice">Service등록</string>
+	<string name="unbindservice">Service제거</string>
+    <string name="callback_response">callback응답</string>
+</resources>

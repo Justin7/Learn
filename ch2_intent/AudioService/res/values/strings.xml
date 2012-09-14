@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AudioAct!</string>
+    <string name="start">Play Music</string>
+     <string name="stop">Stop Music</string>
+    <string name="app_name">Audio</string>
+     <string name="status_bar_info">Audio Application</string>
+     <string name="status_bar_notifications_message">running</string>
+</resources>

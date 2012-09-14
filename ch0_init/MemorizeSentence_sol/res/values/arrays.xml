@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sentence_level">
+        <item>1번~10번</item>
+        <item>11번~20번</item>
+        <item>21번~30번</item>
+        <item>31번~40번</item>
+        <item>41번~50번</item>
+    </array>
+    
+</resources>

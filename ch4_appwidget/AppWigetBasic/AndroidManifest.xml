@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.andr.wiget"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <application
+        android:icon="@drawable/smile"
+        android:label="@string/app_name" >
+        <receiver android:name=".WidgetReceiver"
+            android:enabled="true"
+            android:label="스마일!" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/smileinfo" />
+        </receiver>
+    </application>
+
+</manifest>
